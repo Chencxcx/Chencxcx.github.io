@@ -1,6 +1,6 @@
 ---
 title: 'H5页面内部div滑动与webview下拉刷新的冲突处理'
-author: litao
+author: chenXue
 date: 2022-05-04 11:10:00 +0800
 categories: [Android,WebView]
 tags: [WebView]
@@ -52,7 +52,7 @@ import android.view.MotionEvent
 import android.webkit.WebView
 
 /**
- * @author : litao
+ * @author : chenXue
  * @email : onresume@live.com
  * @date : 2022/5/24 11:16 上午
  */
