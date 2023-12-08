@@ -35,12 +35,12 @@ copyright:
     link: https://creativecommons.org/licenses/by/4.0/
 
   # Displayed in the footer
-  brief: 保留部分权利。
+  brief: All Rights Reserved 未经许可不得转载
   verbose: >-
     除非另有说明，本网站上的博客文章均由作者按照知识共享署名 4.0 国际 (CC BY 4.0) 许可协议进行授权。
 
-meta: 本站采用 :PLATFORM 主题 :THEME
-
+# meta: 本站由 :PLATFORM 生成，采用 :THEME 主题。
+meta:  👉🏼 📧  onresume@live.com
 not_found:
   statment: 抱歉，我们放错了该 URL，或者它指向了不存在的内容。
 
@@ -69,13 +69,15 @@ post:
     share_link:
       title: 分享链接
       succeed: 链接已复制！
+  # pinned prompt of posts list on homepage
+  pin_prompt: 顶置
 
 # Date time format.
 # See: <http://strftime.net/>, <https://day.js.org/docs/en/display/format>
 df:
   post:
-    strftime: "%Y/%m/%d"
-    dayjs: "YYYY/MM/DD"
+    strftime: '%Y/%m/%d'
+    dayjs: 'YYYY/MM/DD'
 
 # categories page
 categories:
